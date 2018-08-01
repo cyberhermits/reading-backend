@@ -12,5 +12,8 @@
     "start": "npm run serve",
     "build": "npm run build-ts",
     "build-ts": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.1"
   }
 }
