@@ -11,7 +11,8 @@
   "scripts": {
     "start": "npm run serve",
     "build": "npm run build-ts",
-    "build-ts": "tsc"
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w"
   },
   "devDependencies": {
     "typescript": "^3.0.1"
