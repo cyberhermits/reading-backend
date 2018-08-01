@@ -9,12 +9,20 @@
   "author": "Chiganov",
   "license": "MIT",
   "scripts": {
-    "start": "npm run serve",
+    "start": "node dist/server.js",
     "build": "npm run build-ts",
     "build-ts": "tsc",
     "watch-ts": "tsc -w"
   },
   "devDependencies": {
+    "@types/dotenv": "^4.0.3",
+    "@types/errorhandler": "0.0.32",
+    "@types/express": "^4.16.0",
+    "errorhandler": "^1.5.0",
     "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3"
   }
 }
