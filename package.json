@@ -10,6 +10,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node dist/server.js",
+    "watch": "nodemon dist/server.js",
     "build": "npm run build-ts",
     "build-ts": "tsc",
     "watch-ts": "tsc -w"
